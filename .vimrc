@@ -5,9 +5,10 @@ syntax on
 colorscheme pablo
 set background=dark
 
+set guifont=DejaVu\ Sans\ Mono\ 13
+
 set expandtab
 set backspace=indent,eol,start
-set mouse=a
 
 set shiftwidth=4 
 set tabstop=4
