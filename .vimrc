@@ -52,3 +52,6 @@ endfunction
 "TagList
 "==========
 nmap tl :TlistToggle<cr>
+let Tlist_Exit_OnlyWindow = 1     " exit if taglist is last window open
+let Tlist_Show_One_File = 1       " Only show tags for current buffer
+let Tlist_Enable_Fold_Column = 0  " no fold column (only showing one file)
