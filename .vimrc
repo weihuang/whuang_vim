@@ -47,3 +47,8 @@ endfunction
 function! NERDTree_IsValid()
     return 1
 endfunction
+
+"==========
+"TagList
+"==========
+nmap tl :TlistToggle<cr>
