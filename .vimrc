@@ -41,14 +41,20 @@ let g:miniBufExplModSelTarget = 1
 "NERDTree
 "==========
 let g:NERDTree_title='NERD Tree'
+nmap nt :NERDTreeToggle<cr>
 
 "==========
 "winmanager
 "==========
 "let loaded_winmanager = 1
+let g:winManagerWindowLayout = "NERDTree|TagList"
 "let g:winManagerWindowLayout = "NERDTree"
-let g:winManagerWindowLayout = "NERDTree"
 nmap wm :WMToggle<cr>
+
+let g:winManagerWidth = 30
+let g:defaultExplorer = 0
+nmap  :FirstExplorerWindow
+nmap  :BottomExplorerWindow
 
 function! NERDTree_Start()
     exec 'NERDTree'
@@ -62,8 +68,9 @@ endfunction
 "TagList
 "==========
 nmap tl :TlistToggle<cr>
-let Tlist_Use_Right_Window=1      " open in right side
+"let Tlist_Use_Right_Window=1      " open in right side
 let Tlist_Exit_OnlyWindow = 1     " exit if taglist is last window open
 let Tlist_Show_One_File = 1       " Only show tags for current buffer
 let Tlist_Enable_Fold_Column = 0  " no fold column (only showing one file)
-let Tlist_File_Fold_Auto_Close=1  " auto fold
+let Tlist_File_Fold_Auto_Close=1  " auto fold functions if not in current buffer
+let Tlist_Process_File_Always=1   " real-time process tags
