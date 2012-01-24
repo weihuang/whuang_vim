@@ -46,7 +46,7 @@ let g:NERDTree_title='NERD Tree'
 "winmanager
 "==========
 "let loaded_winmanager = 1
-"let g:winManagerWindowLayout = "FileExplorer"
+"let g:winManagerWindowLayout = "NERDTree"
 let g:winManagerWindowLayout = "NERDTree"
 nmap wm :WMToggle<cr>
 
