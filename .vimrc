@@ -41,7 +41,7 @@ let g:miniBufExplModSelTarget = 1
 "NERDTree
 "==========
 let g:NERDTree_title='NERD Tree'
-"nmap nt :NERDTreeToggle<cr>
+nmap nt :NERDTreeToggle<cr>
 
 "==========
 "winmanager
@@ -49,10 +49,10 @@ let g:NERDTree_title='NERD Tree'
 "let loaded_winmanager = 1
 "let g:winManagerWindowLayout = "NERDTree|TagList"
 "let g:winManagerWindowLayout = "NERDTree"
-nmap wm :WMToggle<cr>
+"nmap wm :WMToggle<cr>
 
-let g:winManagerWidth = 30
-let g:defaultExplorer = 0
+"let g:winManagerWidth = 30
+"let g:defaultExplorer = 0
 
 "==========
 "TagList
