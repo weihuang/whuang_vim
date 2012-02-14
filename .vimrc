@@ -1,6 +1,6 @@
 set nu
-syntax enable
 syntax on
+"source $VIMRUNTIME/syntax/c.vim
 set hls     " highlight search
 
 set tags=tags; "ctags
@@ -40,7 +40,7 @@ let g:miniBufExplModSelTarget = 1
 "==========
 "NERDTree
 "==========
-let g:NERDTree_title='NERD Tree'
+"let g:NERDTree_title='NERD Tree'
 nmap nt :NERDTreeToggle<cr>
 
 "==========
