@@ -18,6 +18,12 @@ set backspace=indent,eol,start
 set shiftwidth=4 
 set tabstop=4
 
+"======Global remaps
+map! ;; <Esc>
+"nnoremap <C-q> i
+"cmap <C-q> <Esc> 
+"imap <C-q> <Esc>
+"
 "======Hide bars
 nnoremap <C-F1> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
 nnoremap <C-F2> :if &go=~#'T'<Bar>set go-=T<Bar>else<Bar>set go+=T<Bar>endif<CR>
